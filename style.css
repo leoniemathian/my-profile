@@ -1,0 +1,99 @@
+/*Colors and fonts*/
+
+body{
+	background-color: #ffa372;
+	color: rgb(30, 30, 30);
+	font-family: Lora, serif;
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+h1, h2 {
+	font-family: 'Staatliches', cursive;
+}
+
+h1{
+	color: #637373;
+	font-size: 32px;
+	font-weight: 900;
+}
+
+h2{
+	color: #679B9B;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+a{
+	text-decoration: none;
+	color: #679B9B;
+	font-weight: bold;
+}
+a:hover{
+	color: black;
+}
+
+/*Custom design with class*/
+
+.container {
+	width: 700px; 
+	margin: 40px auto;
+}
+
+.card-white {
+	background-color: white;
+	padding: 60px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #679B9B;
+}
+
+.list-inline i:hover {
+	font-size: 50px;
+	color: black;
+}
+
+/*Design adjustments using id*/
+
+#introduction p{
+	margin-bottom: 40px;
+}
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+}
